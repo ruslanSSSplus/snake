@@ -1,5 +1,39 @@
 .all{
-    height: 50px;
-    width: 50px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: black solid 2px;
+    background-color: white;
+   
+    margin: 1px;
+}
+.allGreen{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    background-color: green;
+    margin: 1px;
+}
+.allRed{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    background-color: red;
+    margin: 1px;
+}
+.table{
+    margin-left: 600px;
+    margin-top: 150px;
+    width: calc(64px * 11);
+    height: calc(64px * 11);
+    display: flex;
+    flex-wrap: wrap;
 }
